@@ -6,5 +6,24 @@
 
 }
 html, body{
-    background-color: rgb(243, 231, 165);
+    background-color: #5da753;
+}
+.main-container{
+    border: 4px solid rgb(0, 89, 255);
+    border-radius: 50px;
+    margin: 2rem;
+    background-color: aquamarine;
+    
+}
+
+nav, section, footer, aside, article{
+    border: 2px solid #ace2a5;
+    margin: 1rem;
+    border-radius: 10px;
+    padding 1rem;
+}
+
+article, aside{
+    width: 40%;
+    display: inline-block;
 }
