@@ -26,4 +26,11 @@ nav, section, footer, aside, article{
 article, aside{
     width: 40%;
     display: inline-block;
+    height: 300px;
+    background-color: aliceblue;
+}
+
+nav, footer, section{
+    background-color: cyan;
+    
 }
