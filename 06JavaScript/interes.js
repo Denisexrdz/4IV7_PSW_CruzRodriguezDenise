@@ -1,4 +1,4 @@
-/*vamos a realizar una funcion que se encargue de calidar la entrada de numeros por medo de una expresion regular */
+/*vamos a realizar una funcion que se encargue de validar la entrada de numeros por metodo de una expresion regular */
 function validarn(e){
     var teclado = (document.all)? e.keyCode : e.which;
     if (teclado == 8) return true;
@@ -17,4 +17,9 @@ function interes(){
 
     document.formulario.sueldoI.value= "$" + total; 
 
+}
+
+function borrar(){
+    document.formulario.cantidad.value="";
+    document.formulario.
 }
