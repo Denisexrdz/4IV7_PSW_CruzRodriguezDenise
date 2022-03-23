@@ -69,10 +69,6 @@ function problema2(){
     
 }
 
-
-
-
-
 //problema 3
 
 function problema3(){
