@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Algoritmia</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="container">
@@ -17,7 +18,7 @@
             </h3>
             <div class="problema-content"> </div>
                 <input type="text" class="problema-input" placeholder="Ingresa las palabras separadas por un espacio: " id="p1-input">
-                <button type="button" class="problema-button" style="margin-top: 1rem;" onclick="" >
+                <button type="button" class="problema-button" style="margin-top: 1rem;" onclick="problema1()" >
                     Invertir palabras
                 </button>
                 <pre class="problema-output" id="p1-output" >Esperando Datos...</pre>
@@ -100,7 +101,7 @@
             </table>
 
             </div>
-                <button type="button" class="problema-button" style="margin-top: 1rem;" onclick="" >
+                <button type="button" class="problema-button" style="margin-top: 1rem;" onclick="problema2()" >
                     Calcular vector
                 </button>
                 <pre class="problema-output" id="p2-output" >Esperando Datos...</pre>
@@ -117,14 +118,16 @@
                     Considera solamente el alfabeto de A-Z,
                     en mayuscula. Las palabras ingresadas deberan estar separadas por una coma, no se aceptan espacios.
                 </h3>
-                    <div class="problema-content"> </div>
+                    <div class="problema-content">
                     <input type="text" class="problema-input" placeholder="Ingresa las palabras separadas por una coma: " id="p3-input">
-                    <button type="button" class="problema-button" style="margin-top: 1rem;" onclick="" >
+                    <button type="button" class="problema-button" style="margin-top: 1rem;" onclick="problema3()" >
                         Contar letras
                     </button>
-                    <pre class="problema-output" id="p1-output" >Esperando Datos...</pre>
+                    <pre class="problema-output" id="p3-output" >Esperando Datos...</pre>
             </div>
-
+        </div>
     </div>
+
+    <script src="js/logica.js"></script>
 </body>
 </html>
